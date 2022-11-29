@@ -168,7 +168,8 @@
             <li class="has-dropdown">
                 <a href="/aanbod">Ons aanbod</a>
                 <ul class="sub-menu">
-                    <li><a href="/aanbod">Gehele programma</a></li>
+                    <li><a href="/aanbod">Volledig aanbod</a></li>
+                    {{--
                     <li class="has-dropdown menu-col-2">
                         <a href="/collectie/buitenlandse-talen">Buitenandse talen</a>
                         <ul class="sub-menu">
@@ -192,6 +193,7 @@
                             <li><a href="/collectie/online-prive-taalcursussen">› Online privé taalcursussen</a></li>
                         </ul>
                     </li>
+                    --}}
                     @foreach($collections_private as $item)
                         <li><a href="/collectie/{{ $item->slug }}">{{ $item->title }}</a></li>
                     @endforeach
