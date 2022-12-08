@@ -1,0 +1,24 @@
+.sidebar .sidebar-nav,
+.sidebar .sidebar-scroll {
+    width: 250px;
+}
+
+.sidebar .nav {
+    width: 250px;
+}
+.app-header .navbar-brand {
+    width: 205px;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #fff;
+    border: 0;
+    opacity: 1;
+    cursor: not-allowed;
+}
+
+.form-control:disabled:focus,
+.form-control[readonly]:focus {
+    outline: none;
+}
